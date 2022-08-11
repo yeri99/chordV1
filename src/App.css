@@ -2,37 +2,106 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  color: whitesmoke;
+}
+
+.App-name {
+  font-size: 1.3rem;
+  margin: 10px;
+  font-family: serif;
+}
+
+.App-staff {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,160px);
+  row-gap: 30px;
+}
+
+.App-select {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 8%;
+}
+
+.Menu-name{
+  font-family: serif;
+  padding-bottom: 20px;
+}
+
+.App-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-addStaff {
+  margin: 15px;
+}
+
+.App-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 800px;
+  justify-content: left;
+  border-top: 2px solid gray;
+}
+
+.App-reharMenu{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 20%;
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.info-sec {
+  margin-left: 125px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-fst {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.info-fst div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.App-info p {
+  margin: 10px;
+  margin-left: 15px;
+}
+.App-info input {
+  width: 50px;
+}
+
+.App-playMid {
+  margin-top: 80px;
+  
+}
+

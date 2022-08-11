@@ -1,0 +1,13 @@
+
+.oneStaff {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.staffButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
